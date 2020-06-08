@@ -1,0 +1,18 @@
+{
+  "name": "smarthome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm run w --prefix client",
+    "microserver": "npm run start --prefix microserver",
+    "server": "npm run start --prefix server",
+    "all": "concurrently \"npm run server\" \"npm run client\" \"npm run microserver\"",
+    "back": "concurrently \"npm run server\" \"npm run microserver\""
+  },
+  "author": "Belikov",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}

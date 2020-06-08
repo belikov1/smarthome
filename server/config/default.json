@@ -1,0 +1,5 @@
+{
+  "port": 3000,
+  "jwtSecret": "very hard secret",
+  "mongoUri": "mongodb+srv://belikov:h4x10TEM95844p1ar@smarthome-aryvx.azure.mongodb.net/smartHome?retryWrites=true&w=majority"
+}
